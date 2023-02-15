@@ -1,4 +1,3 @@
-library identifier: 'org.apache.commons:commons-math3:3.4.1', retriever: modernSCM([$class: 'GitSCMSource', credentialsId: '', remote: 'https://mvnrepository.com/artifact/org.apache.commons/commons-math3/3.4.1', traits: [gitBranchDiscovery()]])
 pipeline {
    agent any
     stages {
@@ -26,7 +25,7 @@ pipeline {
                 echo "working on Java program.."
                 script {
                     echo "Compiling File Detection program..."
-                    sh " javac ./src/FileTypeDetection.java"
+                    sh " javac ./src/pdfFile.java"
                  }
             }
         }
@@ -35,7 +34,7 @@ pipeline {
                 echo "Running File Detection program..."
                 script {
                     echo "Checking Files Uploaded..."
-                    sh " java ./src/FileTypeDetection.java"
+                    sh " java ./src/pdfFile.java"
                  }
             }
         }
