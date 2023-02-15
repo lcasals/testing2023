@@ -1,12 +1,7 @@
-@Grab('oorg.apache.pdfbox:pdfbox:2.0.1')
+
 import org.apache.pdfbox.pdmodel.PDDocument
 import org.apache.pdfbox.pdmodel.PDDocumentInformation
-void parallelize(int count) {
-   if (!Primes.isPrime(count)) {
-       error "${count} was not prime"
-   }
-   // …
-}
+
 pipeline {
    agent any
     stages {
