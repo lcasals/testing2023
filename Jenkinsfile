@@ -1,6 +1,5 @@
 
-import org.apache.pdfbox.pdmodel.PDDocument
-import org.apache.pdfbox.pdmodel.PDDocumentInformation
+libraryResource 'https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox'
 
 pipeline {
    agent any
