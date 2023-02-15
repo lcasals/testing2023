@@ -1,6 +1,3 @@
-
-libraryResource 'https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox'
-
 pipeline {
    agent any
     stages {
