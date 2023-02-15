@@ -26,7 +26,7 @@ pipeline {
                 script {
                     echo "Checking Files Uploaded..."
                     cd src
-                    bat "java -jar myJar.jar FileTypeDetection.class"
+                    sh "java -jar myJar.jar FileTypeDetection.class"
                  }
             }
         }
