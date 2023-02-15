@@ -26,7 +26,7 @@ pipeline {
                 script {
                     echo "Checking Files Uploaded..."
                     cd src
-                    sh "java myJar.jar"
+                    sh "java -jar myJar.jar"
                  }
             }
         }
