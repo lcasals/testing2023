@@ -1,8 +1,11 @@
-<dependency>
-    <groupId>org.apache.pdfbox</groupId>
-    <artifactId>pdfbox</artifactId>
-    <version>2.0.1</version>
-</dependency>
+@Grab('oorg.apache.pdfbox:pdfbox:2.0.1')
+import org.apache.pdfbox:pdfbox:2.0.1
+void parallelize(int count) {
+   if (!Primes.isPrime(count)) {
+       error "${count} was not prime"
+   }
+   // …
+}
 pipeline {
    agent any
     stages {
