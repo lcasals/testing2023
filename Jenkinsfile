@@ -1,3 +1,9 @@
+<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
+<dependency>
+    <groupId>org.apache.pdfbox</groupId>
+    <artifactId>pdfbox</artifactId>
+    <version>2.0.1</version>
+</dependency>
 pipeline {
    agent any
     stages {
