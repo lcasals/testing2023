@@ -25,7 +25,7 @@ pipeline {
                 echo "Running File Detection program..."
                 script {
                     echo "Checking Files Uploaded..."
-                    sh "java -jar Java_practice_jar"
+                    sh "java -jar javaDocumentTester.jar"
                  }
             }
         }
